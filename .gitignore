@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files / secrets
+.env
+
+# Database and logs
+*.db
+*.log
+
+# Generated reports
+incidents_report.csv
+
+# YOLO model files
+*.pt
+
+# Generated/temporary images
+baseline_entry.jpg
+snapshot_entry.jpg
+snapshot_abandoned.jpg
+status_snapshot.jpg
+vqa_snapshot.jpg
+status_check.jpg
