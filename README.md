@@ -1,12 +1,14 @@
 **Event-Driven Smart Surveillance and Security Hub using ESP32-CAM and Multimodal AI**
+---
 
 **Project Overview**
-
+---
 The Event-Driven Smart Surveillance and Security Hub is an IoT and AI-based security system developed using ESP32-CAM and Python. The system provides real-time video streaming, object detection, unattended-object detection, hardware buzzer alerts, AI-based scene analysis, incident logging, and Telegram-based remote monitoring.
 
 The ESP32-CAM captures and streams live video over Wi-Fi. The Python application processes the video using YOLO for detecting people and selected objects such as backpacks, handbags, suitcases, bottles, and mobile phones. When an object remains unattended for a specified period, the system generates an alert and records the incident.
 
 **Features**
+---
 
 • Real-time ESP32-CAM video streaming
 
@@ -32,7 +34,7 @@ The ESP32-CAM captures and streams live video over Wi-Fi. The Python application
 
 
 **Hardware Components**
-
+---
 • ESP32-CAM
 
 • PIR Sensor
@@ -51,7 +53,7 @@ The ESP32-CAM captures and streams live video over Wi-Fi. The Python application
 
 
 **Software and Technologies**
-
+---
 • Arduino IDE
 
 • Python
@@ -76,7 +78,7 @@ The ESP32-CAM captures and streams live video over Wi-Fi. The Python application
 
 
 **Connections**
-
+---
 **FTDI232 to ESP32-CAM**
 
 VCC ------>  5V
@@ -97,7 +99,7 @@ The ESP32-CAM flash LED is connected to GPIO 4 and is configured to remain ON wh
 
 
 **Working**
-
+---
 1. ESP32-CAM connects to the Wi-Fi network.
 
 2. ESP32-CAM provides a live camera stream.
@@ -121,7 +123,7 @@ The ESP32-CAM flash LED is connected to GPIO 4 and is configured to remain ON wh
 
 
 **Telegram Commands**
-
+---
 | `/status` | Get current camera and security status |
 
 | `/history` | Get recent security incident history |
@@ -136,7 +138,7 @@ The system can also receive normal text questions and use the local AI vision mo
 
 
 **AI Models**
-
+---
 **YOLO**
 
 The project uses the Ultralytics YOLO model for real-time object detection and tracking.
